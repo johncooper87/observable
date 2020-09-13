@@ -26,14 +26,14 @@ const innerClick1 = () => setTimeout(innerClick, 0);
 
 function App() {
   console.log('App');
-  const num1 = useObservable(observable1);
-  const num2 = useObservable(observable2);
+  const number1 = useObservable(observable1);
+  const number2 = useObservable(observable2);
 
   return <div style={{ padding: '24px', backgroundColor: 'yellow', width: '96px' }} onClick={outerClick1} >
     <div style={{ padding: '12px', backgroundColor: 'red' }} onClick={innerClick1} >
-      num1: {num1}
+      num1: {number1}
       <br />
-      num2: {num2}
+      num2: {number2}
     </div>
   </div>;
 }
