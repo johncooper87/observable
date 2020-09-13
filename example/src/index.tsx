@@ -26,14 +26,14 @@ const innerClick1 = () => setTimeout(innerClick, 0);
 
 function App() {
   console.log('App');
-  const lalala = useObservable(observable1);
-  const bebebe = useObservable(observable2);
+  const asdasd = useObservable(observable1);
+  const zxczxc = useObservable(observable2);
 
   return <div style={{ padding: '24px', backgroundColor: 'yellow', width: '96px' }} onClick={outerClick1} >
     <div style={{ padding: '12px', backgroundColor: 'red' }} onClick={innerClick1} >
-      num1: {lalala}
+      num1: {asdasd}
       <br />
-      num2: {bebebe}
+      num2: {zxczxc}
     </div>
   </div>;
 }
