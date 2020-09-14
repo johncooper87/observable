@@ -14,6 +14,7 @@ export class Publisher {
 
   subscribe(callback: Callback, batch = false) {
     this.callbacks.set(callback, batch);
+    const a = 5;
     return () => { this.callbacks.delete(callback); }
   }
 
